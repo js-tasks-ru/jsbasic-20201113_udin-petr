@@ -5,5 +5,7 @@
  * @returns {string}
  */
 function truncate(str, maxlength) {
-  // ваш код...
-}
+  (str.length > maxlength) ? str = str.slice(0, maxlength - 1) + '…' : str;
+  return str;
+  }
+ 
