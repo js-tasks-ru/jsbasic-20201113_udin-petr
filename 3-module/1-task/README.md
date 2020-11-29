@@ -16,4 +16,3 @@ function namify(users) {
 }
 
 let names = namify(users); // ['Вася', 'Петя', 'Маша']
-```
